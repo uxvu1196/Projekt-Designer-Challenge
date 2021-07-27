@@ -10,31 +10,46 @@
 </head>
 
 <body>
-    <header>
 
-        <!-- display-flex setzt horizontal  -->
-        <img src="assets/img/logo.svg" alt="Logo" class="logo">
-        <div>
-            <h1>TheDesignProject</h1>
-            <h2>by a WebDesigner</h2>
-            <!-- h1 und h2 haben eine line height deswegen besser mit p hat eine viel kleiner line height -->
-        </div>
+    <!-- ------------- HEADER LOGO ------------- -->
+    <header id="bgImage">
+        <a href="index.html"><img src="assets/img/logo.svg" alt="Logo" class="logo">
+            <div>
+                <h1>TheDesignProject</h1>
+                <h2>by a WebDesigner</h2>
+            </div>
+        </a>
     </header>
-
+    <!-- ------------- MAIN ------------- -->
     <main>
-        <!-- <section>
-            <div class="bg"></div>
-            <div class="boy"></div>
-        </section> -->
+        <!-- ------- MAIN BACKGROUND TOP RIGHT -------  -->
         <section>
+            <div class="ilustracion">
+                <img src="assets/img/ilustracion1.png" alt="">
+                <img src="assets/img/ilustracion_people.png" alt="">
+            </div>
+
+            <!-- ------- MAIN TEXT I - ROCKET HEADER ------  -->
+
             <h1>How to become a <br> better designer?</h1>
             <p>A challenge to improve your product design skills by solving <br> problems in your daily life. <span><img
                         src="assets/img/rocket.png" alt="" class="rocket"></span></p>
 
+            <!-- ------- MAIN SCROLL -------  -->
+
             <p class="scroll">SCROLL TO SEE MORE —</p>
         </section>
-        <section class="images"></section>
-        <section>
+
+        <!-- ---- MAIN II - A LOT OF IMAGES IN ONE PIC ---- -->
+        <!-- OPTION2 <section class="images"></section> -->
+
+        <div class="images">
+            <img src="assets/img/images.jpg" alt="">
+        </div>
+
+        <!-- --- MAIN III - IDEA HEADER --- -->
+
+        <article id="flexText">
             <p class="ideaText">Every idea<span><img src="assets/img/idea.png" alt="" class="idea"></span> <br> starts
                 with a <br> need</p>
             <!-- faulere Variante benutzt, hoffe es ist ok mit br ansonsten hätte ich width angewendet -->
@@ -50,84 +65,155 @@
                 that the result was
                 just something nice and did not solve any problem.</p>
             <!-- Kann ich es in einem Artikel verpacken oder besser in einer Section? -->
+        </article>
+
+        <!-- --- MAIN IV - TITLE HEADER --- -->
+
+        <section class="titleHeader">
+            <p>After several weeks of sticking to this challenge, I learned a lot</p>
         </section>
 
-        <section>
-            <p class="text1">After several weeks of sticking to this challenge, I learned a lot</p>
+        <section id="learning">
+            <article>
+                <div>
+                    <h3><img src="assets/img/title02.svg" alt> Start with asking why</h3>
+                    <p>You will start seeing things differently and coming up with more effective ways of achieving
+                        goals.</p>
+                </div>
+            </article>
+
+            <article>
+                <div>
+                    <h3><img src="assets/img/title04.svg" alt>Your ideas will have more value</h3>
+                    <p>By looking at problems from a different perspective, your ideas will be fresher and more
+                        valuable.</p>
+                </div>
+            </article>
+
+            <article>
+                <div>
+                    <h3><img src="assets/img/title01.svg" alt>Design solutions with love</h3>
+                    <p>Only when you experience a problem yourself do you understand the frustration of the users and
+                        resolve to end it.</p>
+                </div>
+            </article>
+
+            <article>
+                <div>
+                    <h3><img src="assets/img/title03.svg" alt>Share and show your work</h3>
+                    <p>As designers, we are often afraid of showing work that’s not finished or doesn’t look perfect.
+                        You will learn to accept feedback and learn from it.</p>
+                </div>
+            </article>
         </section>
 
-        <section>
-            <div>
-                <img src="assets/img/title02.svg" alt="" class="title">
-
-                <p class="überschrift">Start with asking why</p>
-                <p>You will start seeing things differently and coming up with more effective ways of achieving goals.
-                </p>
-            </div>
-
-            <div>
-                <img src="assets/img/title04.svg" alt="" class="title">
-
-                <p class="headline">Your ideas will have more value</p>
-                <p>By looking at problems from a different perspective, your ideas will be fresher and more valuable.
-                </p>
-                </img>
-            </div>
-            <div>
-                <img src="assets/img/title01.svg" alt="" class="title">
-
-                <p class="headline">Design solutions with love</p>
-                <p>Only when you experience a problem yourself do you understand the frustration of the users and
-                    resolve to end it.</p>
-                </img>
-            </div>
-            <div>
-                <img src="assets/img/title03.svg" alt="" class="title">
-
-                <p class="headline">Share and show your work</p>
-                <p>As designers, we are often afraid of showing work that’s not finished or doesn’t look perfect. You
-                    will learn to accept
-                    feedback and learn from it.</p>
-                </img>
-            </div>
+        <!-- --- MAIN V - CHALLENGE ARE YOU READY --- -->
+        <section class="challenge">
+            <h2>Are you ready? Let’s go!!</h2>
+            <p>The challenge lasts 30 days. On each of those days you will have to create a solution to any problem you
+                yourself are facing and how the result to the community.</p>
         </section>
 
+        <!-- --- MAIN VI - CHALLENGE STEPS 01 --- -->
 
+        <div class="challengeSteps">
+            <img class="stepLeft" src="assets/img/step01.png" alt="">
+            <div class="stepRightTxt">
+                <p class="number">01</p>
+                <h6 class="hl"> Find your problem</h6>
+                <article>
+                    It has to be a problem that’s personally affecting or affected you, like finding your keys,
+                    calling a taxi or even remembering something. Open your eyes, look around you carefully and pay
+                    close attention to your surroundings.
+                </article>
+            </div>
+        </div>
+        <!-- --- MAIN VI - CHALLENGE STEPS 02 --- -->
+        <div class="challengeSteps">
+            <div class="stepLeftTxt">
+                <p class="number">02</p>
+                <h6 class="hl">Think about the solution</h6>
+                <article>
+                    It's time to look for solutions. What can you do to solve these problems? It's time to think out
+                    of the box, grab your notebook and start writing down all the ideas that come to mind.
+                </article>
+            </div>
+            <img class="stepRight" src="assets/img/step02.png" alt="">
+        </div>
+        <!-- --- MAIN VI - CHALLENGE STEPS 03 --- -->
+        <div class="challengeSteps">
+            <img class="stepLeft" src="assets/img/step03.png" alt="">
+            <div class="stepRightTxt">
+                <p class="number">03</p>
+                <h6 class="hl">Design your proposal</h6>
+                <article>
+                    How can design help solve your problem? It's time to think about features and functionality, and
+                    then start designing. Don’t forget to always ask yourself: Would I actually use this?
+                </article>
+            </div>
+        </div>
+        <!-- --- MAIN VI - CHALLENGE STEPS 05 --- -->
+        <div class="challengeSteps">
+            <div class="stepLeftTxt">
+                <p class="number">04</p>
+                <h6 class="hl">Share your work</h6>
+                <article>
+                    Share your design on instagram or dribbble with the hashtag #thedesignproject Remember to
+                    explain what the problem was, how you came up with the solution and how the design achieves it.
+                    Find out what people have to say about it.
+                </article>
+            </div>
+            <img class="stepRight" src="assets/img/step04.png" alt="">
+        </div>   
     </main>
 
     <footer>
+        <!-- --- FOOTER I --- -->
+        <section class="subscribe">
+            <h2>Do you like this challenge? </h2>
+            <p>Subscribe to be the first to hear about updates, tips and recommendations!</p>
 
+            <form action="">
+                <input type="email" name="email" id="email" placeholder="Write your email here"> <br>
+                <input type="submit" value="Subscribe"> 
+            </form>
+
+        </section>
+        
     </footer>
 
 </body>
-
 </html>
-
-
-
-
 <!-- 
 
+<!-- 
+    Ursprünglicher Option, war zu viel getue hier. Denke habe einen leichteren und semantischeren Code dafür geschrieben.
+    <article class="titleHeader">
+                <p>After several weeks of sticking to this challenge, I learned a lot</p>      
+            </article>
 
+            <article id="learning">
+                <div>
+                    <h3><img src="assets/img/title02.svg" alt> Start with asking why</h3>
+                    <p>You will start seeing things differently and coming up with more effective ways of achieving
+                        goals.</p>
+                </div>
 
+                <div>
+                    <h3><img src="assets/img/title04.svg" alt>Your ideas will have more value</h3>
+                    <p>By looking at problems from a different perspective, your ideas will be fresher and more
+                        valuable.</p>
+                </div>
+            
+                <div>
+                    <h3><img src="assets/img/title01.svg" alt>Design solutions with love</h3>
+                    <p>Only when you experience a problem yourself do you understand the frustration of the users and
+                        resolve to end it.</p>
+                </div>
 
-
-
-
-Are you ready? Let’s go!!
-The challenge lasts 30 days. On each of those days you will have to create a solution to any problem you yourself are
-facing and show the result to the community.
-Find your problem
-It has to be a problem that’s personally affecting or affected you, like finding your keys, calling a taxi or even
-remembering something. Open your eyes, look around you carefully and pay close attention to your surroundings.
-Think about the solution
-It's time to look for solutions. What can you do to solve these problems? It's time to think out of the box, grab your
-notebook and start writing down all the ideas that come to mind.
-Design your proposal
-How can design help solve your problem? It's time to think about features and functionality, and then start designing.
-Don’t forget to always ask yourself: Would I actually use this?
-Share your work
-Share your design on instagram or dribbble with the hashtag #thedesignproject Remember to explain what the problem was,
-how you came up with the solution and how the design achieves it. Find out what people have to say about it.
-Do you like this challenge?
-Subscribe to be the first to hear about updates, tips and recommendations! -->
+                <div>
+                    <h3><img src="assets/img/title03.svg" alt>Share and show your work</h3>
+                    <p>As designers, we are often afraid of showing work that’s not finished or doesn’t look perfect.
+                        You will learn to accept feedback and learn from it.</p>
+                </div>
+            </article>
